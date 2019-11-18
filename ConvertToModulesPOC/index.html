@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/3.1.0/system.js"></script>
+
+        <script src="./scripts/alpha.js"></script>
+        <script src="./scripts/beta.js"></script>
+        <script src="./scripts/gamma.js"></script>
+
+        <script>
+
+            System.import('./scripts/app.js')
+            .then(function(module){
+                    console.log("module loaded");
+            }).catch(function (err)
+            { console.error(err); });;
+        </script>
+        <link rel="stylesheet" href="styles/app.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Convert To Modules POC</h1>
+        <hr/>
+        <h2>OUT</h2>
+        <hr/>
+        <div id='outText' style="font-family: monospace">&nbsp;<div>
+        <hr/>
+
+    </body>
+</html>

@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es5",
+		"noImplicitAny": false,
+		"removeComments": false,
+		"preserveConstEnums": false,
+		"sourceMap": true,
+		"allowUmdGlobalAccess": true,
+		"typeRoots": [
+			"./node_modules/@types",
+			"./lib"
+		]
+	},
+	"files": [
+		"scripts/app.ts",
+		"scripts/alpha.ts",
+		"scripts/beta.ts",
+		"scripts/gamma.ts",
+		"scripts/yMOD.ts",
+		"scripts/global.d.ts"
+	]
+}
