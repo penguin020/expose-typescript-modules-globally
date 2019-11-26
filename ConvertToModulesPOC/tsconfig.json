@@ -18,7 +18,6 @@
 		"scripts/alpha.ts",
 		"scripts/beta.ts",
 		"scripts/gamma.ts",
-		"scripts/yMOD.ts",
-		"scripts/global.d.ts"
+		"scripts/yMOD.ts"
 	]
 }
