@@ -1,4 +1,4 @@
-import gammaAlias from "../scripts/gamma";
+import gammaAlias from "../scripts/gamma.js";
 export as namespace NS_Global;
 
 declare global {
@@ -6,5 +6,6 @@ declare global {
     namespace ZZZ {
        export var gamma: gammaAlias;
     }
-    //var gamma: gammaAlias;
+    export type gamma = gammaAlias;
+    export const gamma: typeof gammaAlias;
 }

@@ -5,8 +5,7 @@ var alpha = /** @class */ (function () {
         var caller = (new Error()).stack.split("\n")[2].trim().split(" ")[1];
         console.log("alpha.log called by " + caller);
         (new beta()).log();
-        qqq.n = "";
-        var t;
+        //qqq.n = "";
         (new gamma()).log();
     };
     alpha._constructor = (function () {

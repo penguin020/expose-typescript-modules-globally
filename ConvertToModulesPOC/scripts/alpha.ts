@@ -7,8 +7,7 @@ class alpha {
         const caller = (new Error()).stack.split("\n")[2].trim().split(" ")[1];
         console.log("alpha.log called by " + caller);
         (new beta()).log();
-        qqq.n = "";
-        var t : NS_Global.gamma;
+        //qqq.n = "";
         (new gamma()).log();
     }
 }

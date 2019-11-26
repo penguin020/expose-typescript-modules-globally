@@ -1,6 +1,6 @@
 import utils from "./utils.js";
-import "./yMod";
-import "./global";
+import "./yMod.js";
+//import {global} from "global";
 
 console.log("After importing utils");
 

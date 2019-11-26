@@ -1,13 +1,13 @@
 {
 	"compilerOptions": {
-		"module": "commonjs",
+		"module": "system",
 		"moduleResolution": "node",
 		"target": "es5",
 		"noImplicitAny": false,
 		"removeComments": false,
 		"preserveConstEnums": false,
 		"sourceMap": true,
-		"allowUmdGlobalAccess": true,
+		//"allowUmdGlobalAccess": true,
 		"typeRoots": [
 			"./node_modules/@types",
 			"./lib"

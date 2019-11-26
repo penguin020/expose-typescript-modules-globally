@@ -1,3 +1,3 @@
-import gammaAlias from "../scripts/gamma";
+import gammaAlias from "../scripts/gamma.js";
 
-(window as any)["ZZZ"] = {gamma: gammaAlias};
+(window as any)["gamma"] = gammaAlias;
