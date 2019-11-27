@@ -19,11 +19,10 @@ I have made gamma.ts into a module exporting the `gamma` class by `default`.
 
 I have added **global.d.ts** to try to expose the `gamma` class from the module in the global namespace (on `window`).
 
-**! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !**  
 **Fixing this is the point of this repo**  
-**! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !**  
 
-## Initial Answer
+## &#x2B50; Initial Answer &#x2B50;
+
 I found an answer here in "[TypeScript: exposing module types in the global context and why to avoid it][1]";
 
 I have updated the github repo.
