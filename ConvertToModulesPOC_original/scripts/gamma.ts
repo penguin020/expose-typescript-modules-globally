@@ -1,4 +1,4 @@
-class gamma {
+export default class gamma {
     static _constructor =(() => {
         console.log("gamma static constructor");
     })();
@@ -7,6 +7,3 @@ class gamma {
         console.log("gamma.log called by " + caller);
     }
 }
-
-let g = new gamma();
-(window as any).gamma = g

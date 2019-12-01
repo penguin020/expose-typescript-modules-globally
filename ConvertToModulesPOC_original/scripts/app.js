@@ -1,14 +1,14 @@
-console.log("After importing utils");
-console.log("after calling utils");
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var gamma_1 = require("./gamma");
 var app;
 (function (app) {
-    console.log("initial execution");
+    //////////////// INIT ///////////////////////////////////////////////////
     function init() {
         initLogging();
-        console.log("\n");
-        console.log("----- INIT -----");
+        console.log("\n----- INIT -----");
         (new alpha()).log();
-        console.log("--- END INIT ---");
+        console.log("\n--- END INIT ---");
     }
     app.init = init;
     //////////////// HELPERS ///////////////////////////////////////////////////
@@ -25,6 +25,7 @@ var app;
     }
 })(app || (app = {}));
 ;
+//////////////// ON LOAD ///////////////////////////////////////////////////
 if (document.readyState !== 'loading') {
     // document is already ready
     app.init();
@@ -35,4 +36,6 @@ else {
         app.init();
     });
 }
+var g = new gamma_1.default();
+window.gamma = g;
 //# sourceMappingURL=app.js.map
