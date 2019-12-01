@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var gamma = /** @class */ (function () {
     function gamma() {
     }
@@ -10,4 +12,5 @@ var gamma = /** @class */ (function () {
     })();
     return gamma;
 }());
+exports.default = gamma;
 //# sourceMappingURL=gamma.js.map

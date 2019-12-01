@@ -1,4 +1,4 @@
-class gamma {
+export default class gamma {
     static _constructor =(() => {
         console.log("gamma static constructor");
     })();

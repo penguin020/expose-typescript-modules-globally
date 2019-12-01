@@ -1,3 +1,5 @@
+import gamma from "./gamma";
+
 module app {
 
 	//////////////// INIT ///////////////////////////////////////////////////
@@ -37,3 +39,5 @@ if( document.readyState !== 'loading' ) {
     });
 }
 
+let g = new gamma();
+(window as any).gamma = g
