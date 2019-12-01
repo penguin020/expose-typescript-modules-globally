@@ -7,3 +7,6 @@ class gamma {
         console.log("gamma.log called by " + caller);
     }
 }
+
+let g = new gamma();
+(window as any).gamma = g
