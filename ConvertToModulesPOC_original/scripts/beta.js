@@ -8,6 +8,7 @@ var beta = /** @class */ (function () {
     };
     beta._constructor = (function () {
         console.log("beta static constructor");
+        (new gamma()).log();
     })();
     return beta;
 }());

@@ -1,14 +1,11 @@
-console.log("After importing utils");
-console.log("after calling utils");
 var app;
 (function (app) {
-    console.log("initial execution");
+    //////////////// INIT ///////////////////////////////////////////////////
     function init() {
         initLogging();
-        console.log("\n");
-        console.log("----- INIT -----");
+        console.log("\n----- INIT -----");
         (new alpha()).log();
-        console.log("--- END INIT ---");
+        console.log("\n--- END INIT ---");
     }
     app.init = init;
     //////////////// HELPERS ///////////////////////////////////////////////////
@@ -25,6 +22,7 @@ var app;
     }
 })(app || (app = {}));
 ;
+//////////////// ON LOAD ///////////////////////////////////////////////////
 if (document.readyState !== 'loading') {
     // document is already ready
     app.init();

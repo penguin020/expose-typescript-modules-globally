@@ -9,6 +9,7 @@ var alpha = /** @class */ (function () {
     };
     alpha._constructor = (function () {
         console.log("alpha static constructor");
+        (new gamma()).log();
     })();
     return alpha;
 }());
