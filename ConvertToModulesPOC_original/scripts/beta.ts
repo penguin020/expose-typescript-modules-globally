@@ -1,6 +1,7 @@
 class beta {
     static _constructor =(() => {
-        console.log("beta static constructor");
+				console.log("beta static constructor");
+				(new gamma()).log()
     })();
     log() {
         const caller = (new Error()).stack.split("\n")[2].trim().split(" ")[1];

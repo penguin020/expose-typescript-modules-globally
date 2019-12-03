@@ -10,5 +10,4 @@ var gamma = /** @class */ (function () {
     })();
     return gamma;
 }());
-var g = new gamma();
-window.gamma = g;
+//# sourceMappingURL=gamma.js.map

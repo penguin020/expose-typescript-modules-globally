@@ -1,6 +1,7 @@
 class alpha {
     static _constructor =(() => {
-        console.log("alpha static constructor");
+				console.log("alpha static constructor");
+				(new gamma()).log()
     })();
 
     log() {
